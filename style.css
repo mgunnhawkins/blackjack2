@@ -1,0 +1,54 @@
+body {
+    background-color: green;
+}
+header{
+    background-color: white;
+    text-align: center;
+    padding: 20px;
+    margin:10px;
+}
+button{
+    margin: 10px;
+    padding: 5px 15px;
+}
+.game-title{
+    font-size: 30px;
+}
+.game-board{
+    border: 2px solid pink;
+    padding: 40px;
+}
+.flex-container{
+    display: flex;
+    border: 5px solid white;
+    width: 50%;
+    margin: 0 auto;
+    align-self: center;
+    text-align: center;
+   
+}
+.flex-child{
+    flex: 1;
+    border: 2px solid black;
+    text-align: center;
+}
+.flex-child:first-child{
+    margin-right: 20px;
+    border: 2-x solid white;
+}
+.game-actions{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 10px;    
+}
+
+.card{
+    text-align: center;
+    border: 2pxx solid white;
+}
+    
+
+#player{
+    flex: 1;
+    background-color: white;
+}
